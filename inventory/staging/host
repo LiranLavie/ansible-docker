@@ -1,0 +1,6 @@
+[webservers]
+web-server-1-staging  ansible_host=10.0.1.4
+web-server-2-staging  ansible_host=10.0.1.6
+
+[agents]
+agent-staging  ansible_host=20.241.141.125

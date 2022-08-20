@@ -1,7 +1,6 @@
 ---
 
 - hosts: webservers
-  #become: yes
   #Add webservers vars
   vars_files: 
     - ~/ansible-agent/inventory/webservers_vars/webservers_vars.yml
